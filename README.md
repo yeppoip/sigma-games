@@ -14,4 +14,4 @@ Unblocked games, simple.
 [![Contrib](https://contrib.rocks/image?repo=sdfsdfasdfsdfasdfsdfasdf/Supernova-V2)](https://github.com/sdfsdfasdfsdfasdfsdfasdf/Supernova-V2/graphs/contributors)
 
 ## Support
-Join our [discord server](https://discord.gg/WDZhkdFyF4) to contact our support team free of charge for any reason 24/7.
+Need to contact me? Email me "curbetbillion@gmail.com" or dm me on tiktok "breakingschoolsfilters"
