@@ -21,6 +21,10 @@
             padding: 20px 30px;
             display: flex;
             justify-content: flex-end; /* Align buttons to the right */
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
         }
 
         header button {
@@ -37,6 +41,11 @@
 
         header button:hover {
             background-color: #9b6fcf;
+        }
+
+        /* Main content section style */
+        .main-content {
+            padding-top: 80px; /* Space for the fixed header */
         }
 
         /* Section styles */
@@ -78,6 +87,7 @@
             text-align: center;
             padding: 20px 0;
         }
+
     </style>
 </head>
 <body>
@@ -86,51 +96,23 @@
     <header>
         <button onclick="location.href='index.html'">Games</button>
         <button onclick="location.href='apps.html'">Apps</button>
-        <button onclick="window.location.href='https://your-proxy-url.com'">Proxy</button> <!-- New Proxy button -->
+        <button onclick="location.href='proxy.html'">Proxy</button> <!-- Button to go to proxy page -->
     </header>
 
-    <!-- Apps Section -->
-    <div class="section">
-        <h2>Apps</h2>
-        <div class="app-card" onclick="window.location.href='https://example.com/app1'">
-            <img src="https://via.placeholder.com/200x160" alt="App 1">
-            <h3>App 1</h3>
-        </div>
-        <div class="app-card" onclick="window.location.href='https://example.com/app2'">
-            <img src="https://via.placeholder.com/200x160" alt="App 2">
-            <h3>App 2</h3>
-        </div>
-        <div class="app-card" onclick="window.location.href='https://example.com/app3'">
-            <img src="https://via.placeholder.com/200x160" alt="App 3">
-            <h3>App 3</h3>
-        </div>
-        <div class="app-card" onclick="window.location.href='https://example.com/app4'">
-            <img src="https://via.placeholder.com/200x160" alt="App 4">
-            <h3>App 4</h3>
-        </div>
-        <div class="app-card" onclick="window.location.href='https://example.com/app5'">
-            <img src="https://via.placeholder.com/200x160" alt="App 5">
-            <h3>App 5</h3>
-        </div>
-        <div class="app-card" onclick="window.location.href='https://example.com/app6'">
-            <img src="https://via.placeholder.com/200x160" alt="App 6">
-            <h3>App 6</h3>
-        </div>
-        <div class="app-card" onclick="window.location.href='https://example.com/app7'">
-            <img src="https://via.placeholder.com/200x160" alt="App 7">
-            <h3>App 7</h3>
-        </div>
-        <div class="app-card" onclick="window.location.href='https://example.com/app8'">
-            <img src="https://via.placeholder.com/200x160" alt="App 8">
-            <h3>App 8</h3>
-        </div>
-        <div class="app-card" onclick="window.location.href='https://example.com/app9'">
-            <img src="https://via.placeholder.com/200x160" alt="App 9">
-            <h3>App 9</h3>
-        </div>
-        <div class="app-card" onclick="window.location.href='https://example.com/app10'">
-            <img src="https://via.placeholder.com/200x160" alt="App 10">
-            <h3>App 10</h3>
+    <!-- Main content container -->
+    <div class="main-content">
+        <!-- Apps Section -->
+        <div class="section">
+            <h2>Apps</h2>
+            <div class="app-card" onclick="window.location.href='https://example.com/app1'">
+                <img src="https://via.placeholder.com/200x160" alt="App 1">
+                <h3>App 1</h3>
+            </div>
+            <div class="app-card" onclick="window.location.href='https://example.com/app2'">
+                <img src="https://via.placeholder.com/200x160" alt="App 2">
+                <h3>App 2</h3>
+            </div>
+            <!-- Add other app cards here -->
         </div>
     </div>
 
