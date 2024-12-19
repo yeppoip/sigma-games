@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Supernova</title> <!-- Title "Supernova" -->
+    <title>Supernova</title>
     <style>
         /* General styles for the whole page */
         body {
@@ -14,13 +14,14 @@
             color: white;
         }
 
-        /* Header styles with buttons on the top right */
+        /* Header styles with title centered and buttons on the right */
         header {
             background-color: #5e3b8f;
             color: white;
             padding: 20px 30px;
             display: flex;
-            justify-content: space-between; /* Buttons on the left and title in the center */
+            justify-content: space-between; /* Allows space between title and buttons */
+            align-items: center; /* Vertically centers the content */
             position: fixed;
             top: 0;
             width: 100%;
@@ -28,7 +29,10 @@
         }
 
         header h1 {
+            flex-grow: 1; /* Takes all available space between buttons */
+            text-align: center;
             font-size: 24px;
+            margin: 0;
         }
 
         header button {
