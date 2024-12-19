@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Popular Games - My Simple Website</title>
+    <title>Full-Screen Games - My Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -62,7 +62,29 @@
             text-align: center;
             padding: 20px 0;
         }
+        iframe.fullscreen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            z-index: 1000;
+        }
     </style>
+    <script>
+        function openFullscreen(url) {
+            const iframe = document.createElement('iframe');
+            iframe.src = url;
+            iframe.className = 'fullscreen';
+            iframe.setAttribute('allowfullscreen', '');
+            document.body.appendChild(iframe);
+
+            iframe.onclick = () => {
+                iframe.remove(); // Close iframe on click
+            };
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -70,26 +92,26 @@
         <button onclick="location.href='apps.html'">Apps</button>
     </header>
     <div class="section">
-        <h2>Popular Cool Math Games</h2>
-        <div class="game-card" onclick="window.location.href='https://www.coolmathgames.com/0-run-3'">
-            <img src="https://via.placeholder.com/200x160" alt="Run 3">
-            <h3>Run 3</h3>
+        <h2>Full-Screen Games</h2>
+        <div class="game-card" onclick="openFullscreen('https://krunker.io/')">
+            <img src="https://via.placeholder.com/200x160" alt="Krunker.io">
+            <h3>Krunker.io</h3>
         </div>
-        <div class="game-card" onclick="window.location.href='https://www.coolmathgames.com/0-fireboy-and-watergirl-forest-temple'">
-            <img src="https://via.placeholder.com/200x160" alt="Fireboy and Watergirl">
-            <h3>Fireboy & Watergirl</h3>
+        <div class="game-card" onclick="openFullscreen('https://agar.io/')">
+            <img src="https://via.placeholder.com/200x160" alt="Agar.io">
+            <h3>Agar.io</h3>
         </div>
-        <div class="game-card" onclick="window.location.href='https://www.coolmathgames.com/0-bloxorz'">
-            <img src="https://via.placeholder.com/200x160" alt="Bloxorz">
-            <h3>Bloxorz</h3>
+        <div class="game-card" onclick="openFullscreen('https://slither.io/')">
+            <img src="https://via.placeholder.com/200x160" alt="Slither.io">
+            <h3>Slither.io</h3>
         </div>
-        <div class="game-card" onclick="window.location.href='https://www.coolmathgames.com/0-worlds-hardest-game'">
-            <img src="https://via.placeholder.com/200x160" alt="World's Hardest Game">
-            <h3>World's Hardest Game</h3>
+        <div class="game-card" onclick="openFullscreen('https://shellshock.io/')">
+            <img src="https://via.placeholder.com/200x160" alt="Shell Shockers">
+            <h3>Shell Shockers</h3>
         </div>
-        <div class="game-card" onclick="window.location.href='https://www.coolmathgames.com/0-parking-fury'">
-            <img src="https://via.placeholder.com/200x160" alt="Parking Fury">
-            <h3>Parking Fury</h3>
+        <div class="game-card" onclick="openFullscreen('https://diep.io/')">
+            <img src="https://via.placeholder.com/200x160" alt="Diep.io">
+            <h3>Diep.io</h3>
         </div>
     </div>
     <footer>
