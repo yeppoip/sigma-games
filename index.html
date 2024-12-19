@@ -47,6 +47,30 @@
             margin: 20px 0;
         }
 
+        .game-card {
+            display: inline-block;
+            width: 200px;
+            height: 250px;
+            background-color: #8e6ba7;
+            margin: 15px;
+            border-radius: 10px;
+            cursor: pointer;
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            position: relative;
+        }
+
+        .game-card img {
+            width: 100%;
+            height: 160px;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .game-card h3 {
+            margin-top: 10px;
+        }
+
         /* Footer style */
         footer {
             background-color: #5e3b8f;
@@ -54,28 +78,60 @@
             text-align: center;
             padding: 20px 0;
         }
+
     </style>
 </head>
 <body>
 
     <!-- Header with buttons for navigation -->
     <header>
-        <button onclick="location.href='#games'">Games</button>
-        <button onclick="location.href='#apps'">Apps</button>
+        <button onclick="location.href='index.html'">Games</button>
+        <button onclick="location.href='apps.html'">Apps</button>
     </header>
 
     <!-- Games Section -->
-    <div id="games" class="section">
+    <div class="section">
         <h2>Games</h2>
-        <p>Here you can play awesome games!</p>
-        <!-- Add your game cards here -->
-    </div>
-
-    <!-- Apps Section -->
-    <div id="apps" class="section">
-        <h2>Apps</h2>
-        <p>Here are some cool apps!</p>
-        <!-- Add app cards or content here -->
+        <div class="game-card" onclick="window.location.href='https://example.com/game1'">
+            <img src="https://via.placeholder.com/200x160" alt="Game 1">
+            <h3>Game 1</h3>
+        </div>
+        <div class="game-card" onclick="window.location.href='https://example.com/game2'">
+            <img src="https://via.placeholder.com/200x160" alt="Game 2">
+            <h3>Game 2</h3>
+        </div>
+        <div class="game-card" onclick="window.location.href='https://example.com/game3'">
+            <img src="https://via.placeholder.com/200x160" alt="Game 3">
+            <h3>Game 3</h3>
+        </div>
+        <div class="game-card" onclick="window.location.href='https://example.com/game4'">
+            <img src="https://via.placeholder.com/200x160" alt="Game 4">
+            <h3>Game 4</h3>
+        </div>
+        <div class="game-card" onclick="window.location.href='https://example.com/game5'">
+            <img src="https://via.placeholder.com/200x160" alt="Game 5">
+            <h3>Game 5</h3>
+        </div>
+        <div class="game-card" onclick="window.location.href='https://example.com/game6'">
+            <img src="https://via.placeholder.com/200x160" alt="Game 6">
+            <h3>Game 6</h3>
+        </div>
+        <div class="game-card" onclick="window.location.href='https://example.com/game7'">
+            <img src="https://via.placeholder.com/200x160" alt="Game 7">
+            <h3>Game 7</h3>
+        </div>
+        <div class="game-card" onclick="window.location.href='https://example.com/game8'">
+            <img src="https://via.placeholder.com/200x160" alt="Game 8">
+            <h3>Game 8</h3>
+        </div>
+        <div class="game-card" onclick="window.location.href='https://example.com/game9'">
+            <img src="https://via.placeholder.com/200x160" alt="Game 9">
+            <h3>Game 9</h3>
+        </div>
+        <div class="game-card" onclick="window.location.href='https://example.com/game10'">
+            <img src="https://via.placeholder.com/200x160" alt="Game 10">
+            <h3>Game 10</h3>
+        </div>
     </div>
 
     <!-- Footer -->
@@ -85,3 +141,4 @@
 
 </body>
 </html>
+
