@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple App Website</title>
+    <title>Supernova</title> <!-- Title "Supernova" -->
     <style>
         /* General styles for the whole page */
         body {
@@ -20,11 +20,15 @@
             color: white;
             padding: 20px 30px;
             display: flex;
-            justify-content: flex-end; /* Align buttons to the right */
+            justify-content: space-between; /* Buttons on the left and title in the center */
             position: fixed;
             top: 0;
             width: 100%;
             z-index: 1000;
+        }
+
+        header h1 {
+            font-size: 24px;
         }
 
         header button {
@@ -92,11 +96,14 @@
 </head>
 <body>
 
-    <!-- Header with buttons for navigation -->
+    <!-- Header with title and buttons for navigation -->
     <header>
-        <button onclick="location.href='index.html'">Games</button>
-        <button onclick="location.href='apps.html'">Apps</button>
-        <button onclick="location.href='proxy.html'">Proxy</button> <!-- Button to go to proxy page -->
+        <h1>Supernova</h1> <!-- Title in the header -->
+        <div>
+            <button onclick="location.href='index.html'">Games</button>
+            <button onclick="location.href='apps.html'">Apps</button>
+            <button onclick="location.href='proxy.html'">Proxy</button> <!-- Button to go to proxy page -->
+        </div>
     </header>
 
     <!-- Main content container -->
@@ -118,7 +125,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 My Simple Game & App Website</p>
+        <p>&copy; 2024 Supernova Website</p> <!-- Update footer to match title -->
     </footer>
 
 </body>
