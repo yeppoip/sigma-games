@@ -1,5 +1,5 @@
 ## Supernova
-Unblocked games, simple.
+A simple unblocked games template for free use and any edition.
 
 ## Deploy to a cloud service
 [![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://railway.app/new/template?template=https://github.com/sdfsdfasdfsdfasdfsdfasdf/Supernova-V2)
