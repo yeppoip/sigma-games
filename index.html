@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Full-Screen Games - My Website</title>
+    <title>Games</title> <!-- change this to the title of the tab you want -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -81,7 +81,7 @@
             document.body.appendChild(iframe);
 
             iframe.onclick = () => {
-                iframe.remove(); // Close iframe on click
+                iframe.remove(); // closes the iframe once you click (remove this if not wanted)
             };
         }
     </script>
@@ -92,8 +92,8 @@
         <button onclick="location.href='apps.html'">Apps</button>
     </header>
     <div class="section">
-        <h2>Full-Screen Games</h2>
-        <div class="game-card" onclick="openFullscreen('https://krunker.io/')">
+        <h2>Games</h2> <!-- change this to what you want above ur games -->
+        <div class="game-card" onclick="openFullscreen('https://krunker.io/')"> 
             <img src="https://via.placeholder.com/200x160" alt="Krunker.io">
             <h3>Krunker.io</h3>
         </div>
@@ -112,10 +112,11 @@
         <div class="game-card" onclick="openFullscreen('https://diep.io/')">
             <img src="https://via.placeholder.com/200x160" alt="Diep.io">
             <h3>Diep.io</h3>
+            <!-- copy one of these to add new games, change link to wanted game, and img to a links favicon (icon on the tab) the alt will just show the text if img doesnt work (change the text to work as well) -->
         </div>
     </div>
     <footer>
-        <p>&copy; 2024 My Simple Game & App Website</p>
+        <p>&copy; 2024 insert website name here</p> 
     </footer>
-</body>
+</body> 
 </html>
