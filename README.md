@@ -9,6 +9,7 @@ A simple unblocked games template for free use and any edition.
 [![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://replit.com/github/sdfsdfasdfsdfasdfsdfasdf/Supernova-V2)
 [![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/sdfsdfasdfsdfasdfsdfasdf/Supernova-V2)
 [![Deploy to Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/sdfsdfasdfsdfasdfsdfasdf/Supernova-V2)
+[![Deploy to Netlify](https://binbashbanana.github.io/deploy-buttons/buttons/remade/netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sdfsdfasdfsdfasdfsdfasdf/Supernova-V2)
 
 ## Contributors
 [![Contrib](https://contrib.rocks/image?repo=sdfsdfasdfsdfasdfsdfasdf/Supernova-V2)](https://github.com/sdfsdfasdfsdfasdfsdfasdf/Supernova-V2/graphs/contributors)
